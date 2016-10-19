@@ -1,0 +1,31 @@
+h1, div, body {
+    font-family: 'Asap', sans-serif;
+    background-color: black;
+    color: #d6450c;
+}
+
+h2 {
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #d6450c;
+    color: white;
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto;
+
+}
+
+.room-list {
+    float: left;
+    width: 320px;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #555;
+    padding: 8px;
+    border-radius: 8px;
+}
+
