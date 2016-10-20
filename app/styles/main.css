@@ -4,10 +4,11 @@ h1, div, body {
     color: #d6450c;
 }
 
-h2 {
+h3 {
     border-width: 0px 0px 2px 0px;
     border-style: solid;
     border-color: #d6450c;
+    padding: 2px;
     color: white;
 }
 
@@ -19,8 +20,10 @@ h2 {
 
 .room-list {
     float: left;
+    margin: 4px;
     width: 320px;
-    background-color: black;
+    min-height: 600px;
+    background-color: #333;
     color: white;
     border-width: 2px;
     border-style: solid;

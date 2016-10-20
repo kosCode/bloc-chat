@@ -3,10 +3,10 @@
 	<section ng-controller="ChatRoomCtrl">
 		
         <div class="room-list">
-		    <h2>Active Rooms</h2>
+		    <h3>Active Rooms</h3>
 		    <table>
-			    <tr ng-repeat="">
-			    	<td>{{ }}</td>         
+			    <tr ng-repeat="room in rooms">
+			    	<td>{{ room.name }}</td>         
 			    </tr>
             </table>
         </div>
